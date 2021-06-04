@@ -9,7 +9,7 @@ console.log(allCategories)
 
 function App() {
   const [menuItems, setMenuItems] = useState(items);
-  const [categories, setCategories] = useState ([allCategories]); // passing allCategory to useState
+  const [categories, setCategories] = useState (allCategories); // passing allCategory to useState
 
   const filterItems = (category) => { //filtering items from object category
     
